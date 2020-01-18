@@ -1,0 +1,59 @@
+h1 {
+    margin:2em 0;
+    text-align:center;
+}
+.table {
+    max-width:40em;
+    margin:auto;
+}
+.tableBtn {
+    background:#ccc;
+    color:inherit;
+    cursor:pointer;
+    font:inherit;
+    float:left;
+    margin-bottom:.5em;
+    outline:none;
+    padding:1em;
+    text-align:center;
+    width:33.33%;
+}
+.enemy {
+    background:#ccc;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    clear:both;
+    margin:1em auto;
+    padding:1em 2em;
+    position: relative;
+}
+.enemy img {
+    float:left;
+    height:10em;
+}
+.enemy div {
+    position:absolute;
+    top:50%;
+    left:15em;
+    transform:translateY(-50%);
+}
+.enemy p {
+    margin-top:1em;
+}
+.Thwarted, .TBD, .In-progress {
+    font-size:1em;
+    text-align:right;
+}
+.Thwarted {
+    color:red;
+}
+.TBD {
+    color:yellow;
+}
+.In-progress {
+    color:green;
+}
+.enemy:after {
+    content:"";
+    clear:both;
+    display:block;
+}

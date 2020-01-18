@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "SpongeBob",
+    "image":
+      "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "occupation": "Fry Cook",
+    "status": "Thwarted"
+  },
+  {
+    "id": 2,
+    "name": "Mr. Krabs",
+    "image":
+      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+    "occupation": "Restaurant Owner",
+    "status": "In-progress"
+  },
+  {
+    "id": 3,
+    "name": "Squidward",
+    "image":
+      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "occupation": "Cashier",
+    "status": "TBD"
+  },
+  {
+    "id": 4,
+    "name": "Patrick",
+    "image":"https://vignette.wikia.nocookie.net/spongebob/images/5/5d/Patrick_stock_art.png/revision/latest?cb=20181202012306",
+    "occupation": "Currently Unemployed",
+    "status": "Thwarted"
+  },
+  {
+    "id": 5,
+    "name": "Mrs. Puff",
+    "image": "https://vignette.wikia.nocookie.net/spongebob/images/9/97/Mrs_Puff_stock_art.png/revision/latest?cb=20181202012411",
+    "occupation": "Boating Teacher",
+    "status": "In-progress"
+  },
+  {
+    "id": 6,
+    "name": "Sandy Cheeks",
+    "image": "https://vignette.wikia.nocookie.net/spongebob/images/8/84/Sandy_stock_art.png/revision/latest?cb=20181202012358",
+    "occupation": "Scientist",
+    "status": "Thwarted"
+  },
+  {
+    "id": 7,
+    "name": "Pearl Krabs",
+    "image": "https://vignette.wikia.nocookie.net/spongebob/images/e/ef/SpongeBob_SquarePants_-_Pearl_Krabs_promo_art.png/revision/latest/scale-to-width-down/700?cb=20181121020849",
+    "occupation": "Student",
+    "status": "TBD"
+  }
+]
