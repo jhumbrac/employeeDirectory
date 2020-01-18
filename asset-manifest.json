@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/employeeDirectory/static/css/main.69300f86.chunk.css",
+    "main.js": "/employeeDirectory/static/js/main.860dea7a.chunk.js",
+    "main.js.map": "/employeeDirectory/static/js/main.860dea7a.chunk.js.map",
+    "runtime-main.js": "/employeeDirectory/static/js/runtime-main.58ea8a3c.js",
+    "runtime-main.js.map": "/employeeDirectory/static/js/runtime-main.58ea8a3c.js.map",
+    "static/js/2.3d5d31b6.chunk.js": "/employeeDirectory/static/js/2.3d5d31b6.chunk.js",
+    "static/js/2.3d5d31b6.chunk.js.map": "/employeeDirectory/static/js/2.3d5d31b6.chunk.js.map",
+    "index.html": "/employeeDirectory/index.html",
+    "precache-manifest.11fa1a5e9bf15b09c39aa5864ffeb548.js": "/employeeDirectory/precache-manifest.11fa1a5e9bf15b09c39aa5864ffeb548.js",
+    "service-worker.js": "/employeeDirectory/service-worker.js",
+    "static/css/main.69300f86.chunk.css.map": "/employeeDirectory/static/css/main.69300f86.chunk.css.map",
+    "static/js/2.3d5d31b6.chunk.js.LICENSE": "/employeeDirectory/static/js/2.3d5d31b6.chunk.js.LICENSE",
+    "static/media/index.css": "/employeeDirectory/static/media/SpongeBob.d52744e0.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58ea8a3c.js",
+    "static/js/2.3d5d31b6.chunk.js",
+    "static/css/main.69300f86.chunk.css",
+    "static/js/main.860dea7a.chunk.js"
+  ]
+}
