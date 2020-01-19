@@ -1,0 +1,26 @@
+footer svg {
+    position: absolute;
+    top:100%;
+    right: 0;
+    animation:gary 60s;
+    animation-delay: 10s;
+    animation-iteration-count:infinite;
+    transform:scaleX(-1)
+}
+@keyframes gary {
+    0% {}
+    10% { top:10% }
+    14% { transform:scaleX(-1);}
+    15% { transform:scaleX(1) }
+    16% { transform: scaleX(-1); }
+    17% { transform: scaleX(1); }
+    18% { transform: scaleX(-1); }
+    20% { top:10%; }
+    30% { top:100%; }
+
+}
+footer {
+    overflow:hidden;
+    padding:5em 0;
+    position: relative;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Gary from "../SVG/Gary";
+import "./style.css";
 
 export default function Footer() {
     return (
