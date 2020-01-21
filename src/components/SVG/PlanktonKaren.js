@@ -11,7 +11,7 @@ export default function PlanktonKaren(){
             onError={error => console.log(error.message)}
             onLoad={(src, hasCache) => console.log(src, hasCache)}
             preProcessor={code => code.replace(/fill=".*?"/g, 'fill="currentColor"')}
-            src="/images/plankton-karen.svg"
+            src="images/plankton-karen.svg"
             title="Mr Plankton and wife Karen"
             uniqueHash="a1f8d1"
             uniquifyIDs={true}

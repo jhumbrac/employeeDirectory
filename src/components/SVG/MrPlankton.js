@@ -11,7 +11,7 @@ export default function MrPlankton(){
             onError={error => console.log(error.message)}
             onLoad={(src, hasCache) => console.log(src, hasCache)}
             preProcessor={code => code.replace(/fill=".*?"/g, 'fill="currentColor"')}
-            src="/images/mrplankton.svg"
+            src="images/mrplankton.svg"
             title="Mr Plankton"
             uniqueHash="a1f8d1"
             uniquifyIDs={true}

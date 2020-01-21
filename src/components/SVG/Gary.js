@@ -11,7 +11,7 @@ export default function Gary(){
             onError={error => console.log(error.message)}
             onLoad={(src, hasCache) => console.log(src, hasCache)}
             preProcessor={code => code.replace(/fill=".*?"/g, 'fill="currentColor"')}
-            src="/images/gary.svg"
+            src="images/gary.svg"
             title="Gary"
             uniqueHash="a1f8d1"
             uniquifyIDs={true}

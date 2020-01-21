@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Wrapper from './components/Wrapper';
@@ -12,19 +11,33 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  const [page, setPage] = useState("/");
+  const renderPages = page => {
+    switch (page) {
+      case "/":
+        return <Home />;
+      case "about":
+        return <About />;
+      case "menu":
+        return <Menu />;
+      case "enemies":
+        return <Enemies />;
+      case "catering":
+        return <Catering />;
+      case "contact":
+        return <Contact />;
+      default:
+        return <Home />;
+    }
+  }
   return (
-    <Router>
-      <Header />
+    <React.Fragment>
+      <Header setPage={setPage} />
       <Wrapper>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/Menu" component={Menu} />
-        <Route exact path="/Enemies" component={Enemies} />
-        <Route exact path="/Catering" component={Catering} />
-        <Route exact path="/Contact" component={Contact} />
+        {renderPages(page)}
       </Wrapper>
       <Footer />
-    </Router>
+    </React.Fragment>
   );
 }
 
