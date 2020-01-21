@@ -1,0 +1,18 @@
+li:nth-of-type(5):after, li:nth-of-type(11):after, li:nth-of-type(14):after {
+    background: green;
+    border: 4px solid gold;
+    border-radius: 50%;
+    content: "new";
+    color: gold;
+    padding: .5em;
+    transform: rotate(45deg);
+    position: absolute;
+    top: .5em;
+}
+li {
+    position: relative;
+    font-size: 2em;
+    border-bottom: .1em solid;
+    padding-top: 1em;
+    height: 2.5em;
+}

@@ -4,9 +4,17 @@
 }
 * {margin:0; padding:0; box-sizing: border-box;}
 body {
+  background: #484849;
+  color: #a5a7aa;
   font-family: 'SpongeBob',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 1px;
+}
+.clearfix:after {
+  content:"";
+  clear:both;
+  display:block;
+  height:0;
 }

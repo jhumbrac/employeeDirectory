@@ -8,7 +8,7 @@ export default function Footer() {
         <footer>
             <Navbar />
             <p className="copyright">
-                &copy;1973 - {new Date().getYear() + 1900}
+                &copy;1999 - {new Date().getYear() + 1900}
             </p>
             <Gary />
         </footer>

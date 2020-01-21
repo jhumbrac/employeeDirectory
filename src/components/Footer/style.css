@@ -1,6 +1,6 @@
 footer svg {
-    position: absolute;
-    top:100%;
+    position: fixed;
+    bottom:-25em;
     right: 0;
     animation:gary 60s;
     animation-delay: 10s;
@@ -9,18 +9,22 @@ footer svg {
 }
 @keyframes gary {
     0% {}
-    10% { top:20% }
+    10% { bottom:-10em; }
     14% { transform:scaleX(-1);}
     15% { transform:scaleX(1) }
     16% { transform: scaleX(-1); }
     17% { transform: scaleX(1); }
     18% { transform: scaleX(-1); }
-    20% { top:20%; }
-    30% { top:100%; }
-
+    20% { bottom:-10em; }
+    30% { bottom:-25em; right:0;}
+    40% { right:-20em; bottom:-25em;}
+    70% { right:-20em; bottom:-1.25em; }
+    80% { right:120%; bottom:-1.25em; }
+    90% { right: 120%; bottom:-25em; }
 }
 footer {
-    overflow:hidden;
-    padding:5em 0;
-    position: relative;
+    max-width:60em;
+    margin:auto;
+    padding:2em 0;
+    text-align:center;
 }

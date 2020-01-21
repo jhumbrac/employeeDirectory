@@ -1,11 +1,11 @@
 header nav a {
-    background:purple;
-    color:#fff;
+    color:inherit;
     display:inline-block;
-    margin:0 .5em;
     padding:1em 2em;
     text-decoration:none;
 }
 footer nav a {
-    display:block;
+    color:inherit;
+    display:inline-block;
+    padding:.5em;
 }
